@@ -92,7 +92,7 @@ if __name__ == "__main__":
     output_folder = sys.argv[2]
     log_file = sys.argv[3]
 
-    log_progress_file = "/app/progress.log"
+    log_progress_file = "progress.log"
 
     already_processed_files = get_already_processed_files(log_file)
 
